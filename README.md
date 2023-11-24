@@ -1,8 +1,6 @@
-# Projeto exemplo
-
 ## Execução
 
-Para utilizr o InterSdk, você deve adicionar o arquivo _inter-sdk-java.jar_ ao classpath da sua aplicação. Verifique na
+Para utilizar o InterSdk, você deve adicionar o arquivo _inter-sdk-java.jar_ ao classpath da sua aplicação. Verifique na
 documentação da sua IDE, como adicionar uma dependência externa.
 
 Como exemplo, no IntelliJ, siga as seguintes instruções:
@@ -17,4 +15,4 @@ CLASSPATH, ou incluir a opção "-cp path" na linha de comando, onde path é o c
 
 ## InterSdk
 
-[Clique aqui](https://developers.inter.co/docs/sdks/sdk-java) para acessar a documentação do InterSdk.
+[Clique aqui](https://developers.inter.co/docs/sdks/sdk-intro) para acessar a documentação do InterSdk.

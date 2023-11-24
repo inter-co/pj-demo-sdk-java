@@ -26,13 +26,6 @@ public class App {
         String senha = getString("senha do arquivo com o certificado pfx");
         String contaCorrenteApp = getStringOrNull("conta corrente da aplicação (caso tenha múltiplas contas)");
 
-//        String ambiente = "uatbi";
-//        String clientId = "6401723b-7c08-48e2-baf7-33fb01141557";
-//        String clientSecret = "450daced-6cd6-4103-89e1-e072d1768bb9";
-//        String certificado = "certificado.pfx";
-//        String senha = "123456";
-//        String contaCorrenteApp = "8579377";
-
         InterSdk interSdk = new InterSdk(ambiente, clientId, clientSecret, certificado, senha);
         if (args.length > 0) {
             interSdk.setAmbiente(args[0]);
